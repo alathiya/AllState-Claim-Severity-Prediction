@@ -47,7 +47,7 @@ Regression training. 'Id' Columns refers to unique row key for each claim row.
 ## Data Preprocessing and Visualization
 Data visualization is done using seaborn heatmap and pandas scatter matrix to visualization correlation among features.
 - [seaborn heatmaps](https://seaborn.pydata.org/generated/seaborn.heatmap.html)
-- [pandas scatter matrix](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.plotting.scatter_matrix.html)
+- [pandas scatter matrix](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.plotting.scatter_matrix.html)  
 Data Preprocessing is done using PCA to reduce dimensioanlity of data and transformation is done to log scale to achieve normal distribution.
 - [Principal Component Analysis](https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html)
 - [Log transform](https://docs.scipy.org/doc/numpy/reference/generated/numpy.log.html)
@@ -74,6 +74,6 @@ MAE score from all three implementations are reported and final model is chosen 
 
 ## Problem Domain
 Some of the references for predictive modeling on Claim Severity: 
-https://riskandinsurance.com/georgia-pacific/
-https://www.investopedia.com/terms/a/average-severity.asp
+https://riskandinsurance.com/georgia-pacific/  
+https://www.investopedia.com/terms/a/average-severity.asp  
 https://www.casact.org/pubs/forum/05spforum/05spf215.pdf  
