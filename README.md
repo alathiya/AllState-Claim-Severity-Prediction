@@ -44,7 +44,7 @@ Regression training. 'Id' Columns refers to unique row key for each claim row.
 
 
 
-##Data Preprocessing and Visualization
+## Data Preprocessing and Visualization
 Data visualization is done using seaborn heatmap and pandas scatter matrix to visualization correlation among features.
 - [seaborn heatmaps](https://seaborn.pydata.org/generated/seaborn.heatmap.html)
 - [pandas scatter matrix](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.plotting.scatter_matrix.html)
@@ -60,7 +60,7 @@ Three ML approaches discussed and implemented in this project:
 - [Deep Neural Network using Keras](https://machinelearningmastery.com/tutorial-first-neural-network-python-keras/)
 
 
-##Model Evaluation and Validation
+## Model Evaluation and Validation
 Model is tested on 10% of train data splitted from orginial train data in ratio of 9:1. Remaining 90% of train data is used for 
 model training and validation.Metric used to measure performance of model is Mean Absolute error (MAE). Goal of all three ML approches 
 implemented is to reduce MAE. MAE is average over difference between predicted and actual loss on test data.
@@ -68,11 +68,11 @@ Please note that test data provided in kaggle competition do not have true loss 
 visualization is done to understand Loss pattern predicted from test data and true values from train data.
 
 
-##Results
+## Results
 MAE score from all three implementations are reported and final model is chosen with best MAE score.      
 
 
-##Problem Domain
+## Problem Domain
 Some of the references for predictive modeling on Claim Severity: 
 https://riskandinsurance.com/georgia-pacific/
 https://www.investopedia.com/terms/a/average-severity.asp
